@@ -6,7 +6,6 @@ def days_in_month(month):
     days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     return days[month]
 
-
 def num_of_leap_years(start_year, end_year):
     count = 0
     for year in range(start_year, end_year):
